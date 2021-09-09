@@ -1,18 +1,7 @@
 'use strict';
-/*
-const con = document.querySelector('.message').textContent;
-console.log(con)
 
-document.querySelector('.message').textContent = '🥳Correct Number!'
-
-document.querySelector('.number').textContent = 13;
-document.querySelector('.score').textContent = 10
-
-document.querySelector('.guess').value = 23
-console.log(document.querySelector('.guess').value)
-*/
-// const nameInput = prompt("Enter your name to play the game")
-// const nameguess = document.querySelector('.name').textContent = `Guess Number ${nameInput}`
+ const nameInput = prompt("Enter your name to play the game")
+ const nameguess = document.querySelector('.name').textContent = `Guess Number ${nameInput}`
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
